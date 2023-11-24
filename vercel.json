@@ -1,0 +1,5 @@
+{
+  "builds": [
+    { "src": "tags.vue", "use": "@now/static-build" }
+  ]
+}
