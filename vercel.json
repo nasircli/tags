@@ -1,9 +1,6 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs12.x",
-      "maxDuration": 30
-    }
-  },
-  "version": 2
+  "version": 2,
+  "builds": [
+    { "src": "index.vue", "use": "@now/node" }
+  ]
 }
