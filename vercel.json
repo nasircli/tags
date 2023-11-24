@@ -1,6 +1,6 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.vue", "use": "@now/node" }
+    { "src": "index.vue", "use": "@now/vue" }
   ]
 }
