@@ -1,5 +1,9 @@
 {
-  "builds": [
-    { "src": "tags.vue", "use": "@now/static-build" }
-  ]
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs12.x",
+      "maxDuration": 30
+    }
+  },
+  "version": 2
 }
